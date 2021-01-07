@@ -1,3 +1,3 @@
-pynput
+ppynput
 python-dotenv
 pytchat
