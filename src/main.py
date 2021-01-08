@@ -19,7 +19,7 @@ class YoutubeLiveChat(object):
         self.keyboard = Controller()
 
     def reading_chat(self):
-        chat = pytchat.create(video_id='5YevDdRjfuE')
+        chat = pytchat.create(video_id='Live Id')
         while chat.is_alive():
             for c in chat.get().sync_items():
                 if c.message == 'd' or c.message == 'a' or c.message == 's' or c.message == 'w' or c.message == 'space':
